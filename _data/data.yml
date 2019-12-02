@@ -1,0 +1,220 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Oleksandr (Alex) Avoiants
+    tagline: Senior Ruby on Rails Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: shhavel@gmail.com
+    phone: '+380678806519'
+    website: shhavel.github.io #do not add http://
+    linkedin: shhavel
+    github: shhavel
+    gitlab:
+    bitbucket:
+    twitter: '@shhavel'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Ukrainian
+        level: Native
+      - idiom: English
+        level: Upper-intermediate
+
+    interests:
+      - item: Music (Classical, Rock, Pop)
+        link:
+      - item: Electronics, Arduino, Raspberry PI
+        link:
+      - item: Judo
+        link:
+      - item: Sailing
+        link:
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Professional software developer since 2007. Started work with Ruby on Rails since January 2012.
+      Extensive work experience with relational databases, namely MySQL and PostgreSQL.
+      Passionate about software testing. Paying attention to code review between team members and any improvements.
+      Worked in small and big teams.
+education:
+    - degree: Master's degree in Applied Mathematics
+      university: Taras Shevchenko National University of Kyiv
+      time: 2003 - 2008
+      details: |
+        Faculty of Computer Science and Cybernetics, Department of Operations Research
+experiences:
+    - role: Senior Software Engineer (Rails/React)
+      time: May 2017 – May 2018, March 2019 - Present
+      company: ThredUP Inc., Kyiv, Ukraine
+      details: |
+        Development of an application for turning on/off carousels at an automated warehouse.
+        RabbitMQ migration to Kubernetes cluster. Work closely with the infrastructure team.
+        Tech upgrades.
+        Support internal operations Web site that represents Rails API and bunch of React applications.
+        Create an application for managing automatic carousels in a warehouse.
+        Support mobile application for warehouse shipment operations.
+        Creating a mobile application for sorting and packing operations.
+        Develop new features for customer support app.
+        Create Pack Station V2 application. Pack Station is an application responsible for the search and packing of garments in the warehouse ordered by customers. Rebuilt Pack Station using React/Redux and support all the existing functionality. Support both conveyor enabled packing flow and non conveyor packing flow.
+      technologies: Ruby on Rails, MySQL, RSpec, ReactJS, AWS Simple Queue Service, RebbitMQ, Sidekiq, Rollbar.
+    - role: Ruby Developer
+      time: April 2014 – December 2018
+      company: Aejis, Kyiv, Ukraine
+      details: |
+        Create and maintain websites and HTTP APIs on behalf of Aegis company.
+    - role: Full Stack Ruby on Rails Developer
+      time: July 2015 – November 2016
+      company: Clickworker at Ciklum, Kyiv, Ukraine
+      details: |
+        Crowd-sourcing platform, combined with global workforce of 700,000 Clickworkers.
+        As an innovative service provider, Clickworker system uses the know-how of qualified Internet users for the flexible and effective processing of business processes that cannot make efficient use of automation, for example in the areas of: text creation, SEO texts, Web research, product data management, mobile crowdsourcing, classifications, tagging, translations, surveys.
+        Complex tasks are broken into micro jobs by Clickworker system. These tasks are then made available to the clickworkers (internet users registered at clickworker.com). The task is converted back into a complete project after successful processing and strict quality inspection.
+        Clickworker — any person who works remotely in the system. Customer — a client who orders any jobs that can be performed by clickworkers (e.g. text create, text translate, survey).
+        The project consists of two Ruby on Rails applications. The Core combines platform for clickworkers, HTTP API (XML & JSON) for managing tasks for workers and an admin panel. The Marketplace (marketplace.clickworker.com) is a system where customers can order different types of jobs. Applications interact via RabbitMQ. In addition the Marketplace is a client for the Core HTTP JSON API.
+      technologies: Ruby on Rails, MySQL, RabbitMQ, HTTParty, Backbone, jQuery, Bootstrap, RSpec, Capybara, Selenium, Jenkins, Errbit.
+
+    - role: Full Stack Ruby on Rails Developer
+      time: July 2015 – November 2016
+      company: .PROMO IncClickworker (at Ciklum)
+      details: |
+        Crowd-sourcing platform, combined with global workforce of 700,000 Clickworkers.
+        As an innovative service provider, Clickworker system uses the know-how of qualified Internet users for the flexible and effective processing of business processes that cannot make efficient use of automation, for example in the areas of: text creation, SEO texts, Web research, product data management, mobile crowdsourcing, classifications, tagging, translations, surveys.
+        Complex tasks are broken into micro jobs by Clickworker system. These tasks are then made available to the clickworkers (internet users registered at clickworker.com). The task is converted back into a complete project after successful processing and strict quality inspection.
+        Clickworker — any person who works remotely in the system. Customer — a client who orders any jobs that can be performed by clickworkers (e.g. text create, text translate, survey).
+        The project consists of two Ruby on Rails applications. The Core combines platform for clickworkers, HTTP API (XML & JSON) for managing tasks for workers and an admin panel. The Marketplace (marketplace.clickworker.com) is a system where customers can order different types of jobs. Applications interact via RabbitMQ. In addition the Marketplace is a client for the Core HTTP JSON API.
+      technologies: Ruby on Rails, MySQL, RabbitMQ, HTTParty, Backbone, jQuery, Bootstrap, RSpec, Capybara, Selenium, Jenkins, Errbit.
+
+    - role: Ruby on Rails Developer
+      time: August 2013 – March 2014
+      company: .PROMO Inc
+      details: |
+        Dynamic controller actions-steps (wicked). Connecting rails applications through API (grape). Integrating website with 3rd party APIs using OmniAuth. A/B Testing. Background workers (sidekiq) & state machine (state_machine) observers. Versioning models (paper_trail). Developing admin panel (active_admin). Generating pdf files from html (wicked_pdf), putting one pdf inside another one (Rmagick). Integration tests (cucumber, selenium). Multiple time zones support. Short links for email and SMS with authentication. Develop a mechanism for compiling user groups based on complex conditions implemented using composite pattern (where user filter with one condition is component and user group is composite) and STI (single table inheritance).
+      technologies: Ruby on Rails,  PostgreSQL, Sidekiq, RSpec, Cucumber, Capybara, Selenium, Errbit, jQuery, Bootstrap, OmniAuth, wkhtmltopdf.
+
+    - role: Junior Ruby on Rails Developer
+      time: January 2012 – July 2013
+      company: Reevoo (at Ciklum)
+      details: |
+        Supporting and developing analytics (statistical) application. Work with direct SQL. Preparing aggregated database tables (by date, by month, etc.). Checking the accuracy and actuality of the statistical data. Work with Google Analytics API. Migrate data between different DBs (MySQL and PostgreSQL). Displaying data as charts. E-mail notifications with user's specific data.
+        Develop a fully customizable real-time business intelligence tool which interprets millions of customer opinions and surveys combined with internal business data to highlight which customer experiences have the biggest impact on their performance.
+      technologies: Ruby on Rails, MySQL, PostgreSQL, Highcharts.
+
+    - company: MK Media LLC
+      role: PHP Developer
+      time: August 2009 – January 2012
+      details: |
+        Sites support, Database optimization, MySQL partitioning. Organization of data exchange between real estate sites (import and export of classified ads). Developing personal account to pay for site users paid services with a daily interest rate (like a bank account). Providing feature for putting ads to print media through websites. Developing API for mobile applications (an application for IPhone, Android). Developing API for integration with the site aspo.biz and company's sites. Developing indices of real estate market (measures of changes in housing prices and rent, rental yield). Creating Linkator application (SEO tool) to promote sites in search engines under high demands.
+      Technologies: PHP, MySQL, jQuery, Yii.
+
+    - company: Institute of Advanced Technologies
+      role: PHP Developer
+      time: July 2007 – November 2008
+      details: |
+        Developing client side for project based on www.esri.com ArcGIS for server system, see more at http://iat.kiev.ua/index.php?page_id=64&lang_id=3
+        Developing a web version of the interactive educational applications (atlases) for students in geography and history. Maps and brief text description for associative learning. The application provides online tests at www.osvitanet.com.ua.
+        Site development and support.
+      technologies: PHP, MySQL, JavaScript.
+
+    - company: Go interactive!
+      role: Junior PHP Developer
+      time: March 2007 – June 2007
+      technologies: LAMP (Linux, Apache, MySQL, PHP), JavaScript, Smarty.
+
+projects:
+    title: Projects
+    intro: >
+      Some interesting projects mostly from Aejis company.
+    assignments:
+      - title: Publisher Hub for Complex Networks
+        # link: "#"
+        time: March 2018 – December 2018
+        tagline: |
+          Publisher Hub is a reporting system for DoubleClick and YouTube advertising publishers.
+          Created Ruby on Rails JSON API for ReactJS application. Support for two database connections. Database optimization. Setup Integration Tests with Cucumber & Capybara. JWT token authentication.
+        technologies: Ruby on Rails, MySQL, RSpec, Cucumber, Capybara, Sequel, ActiveModelSerializers.
+
+      - title: Vulnerability Self-Assessment Tool for A S Wood Limited
+        time: August 2016 – December 2018
+        tagline: |
+          Closed system for CCTV companies or insurance companies and their clients. The clients are the owners (administration) of hotels and other premises open to the public. The purpose of the project – establishing the degree of safety of the premises (including resistance to the terrorists attack) based on provided information and finding the necessary measures to enhance security through creation of necessary internal and external CCTV. The client receive security report based on filled in form. The CCTV company administrator can view statistics of provided assessments.
+          Responsibilities
+          Developing HTTP JSON API on Elixir with PostgreSQL database. Authentication and authorization of users with different roles (and abilities), user groups (companies) management.
+          https://testing-api.vsat.site/doc/index.html
+        technologies: Elixir, Phoenix, PostgreSQL, Semaphore CI.
+
+      - title: Vacations Management System
+        time: December 2016 – December 2018
+        tagline: |
+          Internal company system for managing employees vacations and holidays.
+          Each employee (user with role “Employee”) belongs to a team. Team can have one or few customers (user with role “Customer”).  Employee can request vacation. Managers (user with role “Manager”) receives E-mail notification about employee’s requests. When manager approves vacation request customer receives E-mail notification about employee’s vacation.
+          Testing server: https://fathomless-ridge-51003.herokuapp.com
+          Credentials: email: dougal.mcguire@example.com, password: secret1234
+        technologies: Elixir/Phoenix, PostgreSQL
+
+      - title: Mobile Content Manager for Alliants
+        time: January 2017 – November 2017
+        tagline: |
+          Mobile Content Manager for Four Seasons Hotels and Resorts is an application for managing settings and content for mobile apps. All data is uploaded to the third party server as JSON files. App supports managing and uploading files in two languages: English and Chinese. App includes validation of data entry, authorization based on user roles, history of changes.
+          Technologies: Ruby on Rails, PostgreSQL, Bootstrap, jQuery, RSpec, WebMock, Codeship, AWS.
+          JSON API wrapper for a SOAP API. Reverse engineering of an API written in JavaScript. The goal is to create a stable and reliable system.
+        technologies: Ruby on Rails, Jbuilder, RSpec, WebMock, Codeship, AWS.
+
+      - title: Facewatch
+        time: April 2014 – July 2016
+        tagline: |
+          Maintain and refactor incident (including crimes) reporting and SOI (subject of interest) sharing social network.
+          Application represents service oriented architecture. The hierarchical system of groups of premises. Ability to share, track and match SOIs. Extended email notifcation system.
+          Integration with external consumers. Ability to import an incident to the system from www.littoralis.com crime reporting tool. Report to Police crime incidents and get back police reference number. Developing a public portal for reporting a crime directly to the police. Stream video from CCTV server. Integration with face recognition system. Integration with Xero accounting software.
+          Application represents service oriented architecture.
+        technologies: Ruby, Sinatra, Faraday, ActiveRecord, PostgreSQL, MongoDB, Neo4j, Resque, Sidekiq, Whenever (Cron), RSpec, WebMock, Capybara, Selenium, Semaphore CI, Airbrake, Backbone.js, jQuery, Bootstrap.
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: Arduino GPS Alarm
+        link: https://create.arduino.cc/projecthub/shhavel/gsm-alarm-1d28a9
+        publisher: Arduino Project Hub
+        date: Feb 7, 2019
+
+      - title: Many to many relationship in PostgreSQL without a third table using Elixir Ecto
+        link: https://medium.com/@shhavel/many-to-many-relationship-in-postgresql-without-third-table-using-elixir-ecto-3fc4f1db14e1
+        date: Sep 13, 2016
+        description: Managing many to many relationships with array column in PostgreSQL. Implemented in micro Elixir / Phoenix app.
+
+      - title: Service Oriented Arhitecture in Sinatra
+        link: https://github.com/ukrmap/sinatra_api_book
+        date: Sep 28, 2015
+        description: 'Building a REST web service using ruby and sinatra: filtering parameters, authorization, search, create documentation on the basis of tests, optimization, remote authentication in web services.'
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Ruby
+        level: 95%
+      - name: Rails
+        level: 85%
+      - name: JavaScript
+        level: 62%
+      - name: HTML5 & CSS
+        level: 70%
+      - name: MySQL
+        level: 90%
+      - name: PostgreSQL
+        level: 77%
