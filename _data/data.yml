@@ -8,12 +8,12 @@ sidebar:
     # Profile information
     name: Oleksandr (Alex) Avoiants
     tagline: Senior Ruby on Rails Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: shhavel@gmail.com
-    phone: '+380678806519'
-    website: shhavel.github.io #do not add http://
+    phone: '+447578164355, +380678806519'
+    website: shhavel.github.io # do not add http://
     linkedin: shhavel
     github: shhavel
     gitlab:
@@ -36,20 +36,21 @@ sidebar:
         link:
       - item: Judo
         link:
-      - item: Sailing
-        link:
-      - item: Cooking
+      - item: Painting
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Professional software developer since 2007. Started work with Ruby on Rails since January 2012.
-      Extensive work experience with relational databases, namely MySQL and PostgreSQL.
-      Passionate about software testing. Paying attention to code review between team members and any improvements.
-      Worked in small and big teams.
+      Software developer since 2007.
+      Delivering software applications and support at all stages of development.
+      Designing application stack and interfaces (e.g. micro-services contracts).
+      Communicate with stakeholders, developers inside and outside the team.
+      Establishing development plan and deliver solutions within reasonable timeframes.
+      Creating automated tests coverage.
+      Very keen on code review. I like being tested with challenges.
 education:
-    - degree: Master's degree in Applied Mathematics
+    - degree: Bachelor's degree in Applied Mathematics
       university: Taras Shevchenko National University of Kyiv
       time: 2003 - 2008
       details: |
@@ -59,16 +60,14 @@ experiences:
       time: May 2017 – May 2018, March 2019 - Present
       company: ThredUP Inc., Kyiv, Ukraine
       details: |
-        Development of an application for turning on/off carousels at an automated warehouse.
-        RabbitMQ migration to Kubernetes cluster. Work closely with the infrastructure team.
-        Tech upgrades.
-        Support internal operations Web site that represents Rails API and bunch of React applications.
-        Create an application for managing automatic carousels in a warehouse.
-        Support mobile application for warehouse shipment operations.
-        Creating a mobile application for sorting and packing operations.
-        Develop new features for customer support app.
-        Create Pack Station V2 application. Pack Station is an application responsible for the search and packing of garments in the warehouse ordered by customers. Rebuilt Pack Station using React/Redux and support all the existing functionality. Support both conveyor enabled packing flow and non conveyor packing flow.
-      technologies: Ruby on Rails, MySQL, RSpec, ReactJS, AWS Simple Queue Service, RebbitMQ, Sidekiq, Rollbar.
+        I work in the Operations Engineering team where I write and support internal inbound and outbound apps.
+        Integrating new carriers, communicate with engineers from other companies, support and enhance shipping tracking system.
+        Created frontend and worked on backend for conveyors admin app for enabling/disabling carousels at automated warehouses.
+        Created UI and API for pre-fulfillment process of garments orders for automated distribution center.
+        Rewrote pack station app for order fulfillment.
+        Created shipment tracking API and notifications for web store and mobile apps to provide customers with information about packages delivery.
+        Regular tech and security vulnerabilities upgrades. Rails framework upgrades to the latest version. Ruby upgrades. RabbitMQ, redis migrations.
+      technologies: Ruby on Rails, MySQL, RSpec, ReactJS, AWS S3, RebbitMQ, Sidekiq, Rollbar.
     - role: Ruby Developer
       time: April 2014 – December 2018
       company: Aejis, Kyiv, Ukraine
